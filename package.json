@@ -1,0 +1,18 @@
+{
+  "name": "ts-mapa-infnet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemplos do Mapa de conceitos de TypeScript (Infnet) para rodar no VS Code",
+  "type": "module",
+  "scripts": {
+    "check": "tsc",
+    "check:watch": "tsc --watch",
+    "dev": "tsx watch",
+    "start": "tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}

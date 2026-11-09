@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // Mesmo rigor do Playground: strict ligado
+    "strict": true,
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    // Cada arquivo é um módulo isolado, SEM precisar de "export {}".
+    // Assim dois arquivos podem ter uma variável com o mesmo nome
+    // e nomes globais do navegador (name, status...) não colidem.
+    "moduleDetection": "force",
+
+    // O tsc só confere os tipos; quem executa é o tsx.
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
