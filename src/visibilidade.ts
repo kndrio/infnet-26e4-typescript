@@ -1,7 +1,7 @@
 //VISIBILIDADE DE CLASSES, ATRIBUTOS E MÉTODOS
 
 class ContaBancaria {
-    public titular: string; //qulaquer um acessa
+    public titular: string; //qualquer um acessa
     private saldo = 0; //somente a própria classe acessa
     protected extrato: string[] = []; //a própria classe + subclasses (filhas)
 
